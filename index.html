@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Student Repository</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="project_details.html">Upload</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li class="search-bar">
+         <!-- 
+           <input type="text" placeholder="Search...">
+          <button type="submit">Search</button>
+          -->
+          <input type="text" id="searchInput" placeholder="Search...">
+          <button onclick="search()">Search</button>
+          <div id="searchResults"></div>
+          
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1>AKENTEN APPIAH MENKA UNIVERSITY OF SKILLS TRAINING AND ENTREPRENEURIAL DEVELOPMENT (<b>AAMUSTED</b>)</h1>
+    </section>
+
+  <section>
+    <h3>Welcome to AAMUSTED Student Project Repository </h3>
+
+  </section>
+   
+    <section id="faculties">
+        <h2>Faculties</h2>
+        <ul>
+          <li class="faculty">
+            Faculty of Applied Sciences and Mathematics Education
+            <ul class="department-list">
+              <!-- Departments for Faculty of Applied Sciences and Mathematics Education -->
+              <li>Department 1</li>
+              <li>Department 2</li>
+              <li>Department 3</li>
+              <li>Department 4</li>
+            </ul>
+          </li>
+          <li class="faculty">
+            Faculty of Business Education
+            <ul class="department-list">
+              <!-- Departments for Faculty of Business Education -->
+              <li>Department 1</li>
+              <li>Department 2</li>
+              <li>Department 3</li>
+              <li>Department 4</li>
+            </ul>
+          </li>
+          <li class="faculty">
+            Faculty of Technical Education
+            <ul class="department-list">
+              <!-- Departments for Faculty of Business Education -->
+              <li>Department 1</li>
+              <li>Department 2</li>
+              <li>Department 3</li>
+              <li>Department 4</li>
+            </ul>
+          </li>
+          <li class="faculty">
+            Faculty of Education and Communication
+            <ul class="department-list">
+              <!-- Departments for Faculty of Business Education -->
+              <li>Department 1</li>
+              <li>Department 2</li>
+              <li>Department 3</li>
+              <li>Department 4</li>
+            </ul>
+          </li>
+          <li class="faculty">
+            Faculty of Vocational Education
+            <ul class="department-list">
+              <!-- Departments for Faculty of Business Education -->
+              <li>Department 1</li>
+              <li>Department 2</li>
+              <li>Department 3</li>
+              <li>Department 4</li>
+            </ul>
+          </li>
+          <!-- Add other faculty items with their respective department lists -->
+      </ul>
+    </section>
+   
+  </main>
+
+  <footer>
+    <p>&copy; 2023 MARTIN ANAD DENIS PROJECT (AAMUSTED-K)</p>
+  </footer>
+
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- Your custom JavaScript code -->
+   <script src="script.js"></script>
+   <script src="search.js"></script>
+
+</body>
+</html>

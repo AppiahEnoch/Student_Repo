@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sign up</title>
+  <link rel="stylesheet" type="text/css" href="loginsignup.css">
+   <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <!-- Navbar code here -->
+  </header>
+
+  <main>
+    <section class="container">
+      <h2>Sign up</h2>
+      <form action="signup.php" method="post">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <div class="password-container">
+              <input type="password" id="password" name="password" required>
+              <span class="password-toggle" id="signupPasswordToggle"></span>
+            </div>
+            
+        </div>
+
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Sign up">
+        </div>
+      </form>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer code here -->
+  </footer>
+
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- Your custom JavaScript code -->
+   <script src="script.js"></script>
+   <script src="search.js"></script>
+
+</body>
+</html>
