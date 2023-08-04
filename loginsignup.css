@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-image: url(images/libraryImage.jpg);
+    
   }
   
   header {
@@ -13,7 +15,8 @@ body {
   }
   
   .container {
-    width: 300px;
+    width: 250px;
+    height: 300px;
     margin: 50px auto;
     padding: 20px;
     background-color: #f2f2f2;
