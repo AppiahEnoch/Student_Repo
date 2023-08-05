@@ -37,14 +37,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check file type and size
     if (in_array($fileType, $allowedTypes) && $fileSize <= $maxFileSize) {
       // Determine the target directory based on the selected department
-      $targetDir = "Uploads/";
+      $targetDir = "STUDENT_REPO/Uploads/";
 
       if ($studyProgram === "Department of InformationTechnology Education") {
-        $targetDir .= "Uploads/ITE/ITE";
+        $targetDir .= "ITE/";
       } elseif ($studyProgram === "Department of Mathematics Education") {
-        $targetDir .= "Department2/";
+        $targetDir .= "MATHS/";
       } elseif ($studyProgram === "Department of Construction & Wood Technology Education") {
-        $targetDir .= "Department3/";
+        $targetDir .= "Uploads/";
       }
       // Add more conditions as needed for other departments
 
@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   // Redirect to the next page (adjust the page name as needed)
-  header("Location: next_page.html");
+  header("Location: index.html");
   exit;
 }
 
