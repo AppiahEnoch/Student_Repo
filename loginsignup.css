@@ -1,10 +1,11 @@
-/* CSS styles for the login and signup pages */
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-image: url(images/libraryImage.jpg);
+   /* background-image: url(images/libraryImage.jpg); */
+    background-repeat: no-repeat;
     
   }
   
@@ -75,7 +76,7 @@ body {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url('eye/eye-icon.png'); /* Replace with your eye icon image */
+    background-image: url('eye/eye-icon.png'); /* eye icon image */
     background-size: cover;
     cursor: pointer;
   }

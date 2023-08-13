@@ -10,19 +10,24 @@
 <body>
   <header>
     <nav>
+      
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="project_details.html">Upload</a></li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="quickSearch.html">Quick Search</a></li>
         <li class="search-bar">
          <!-- 
            <input type="text" placeholder="Search...">
           <button type="submit">Search</button>
-          -->
+          
           <input type="text" id="searchInput" placeholder="Search...">
-          <button onclick="search()">Search</button>
+          <button onclick="search()">Search</button>-->
+          <form action="search.php" method="get" target="_blank">
+           
+            <li><a href="login.html">Login<a></li>
+          </form>
           <div id="searchResults"></div>
+
           
         </li>
       </ul>
@@ -31,7 +36,11 @@
   
   <main>
     
-   
+    <div class="centered-div">
+      <!-- Your content goes here -->
+      <h1>Welcome to AAMUSTED STUDENTS PROJECT REPOSITORY</h1>
+    
+    </div>
   </main>
 
   <footer>

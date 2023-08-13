@@ -1,98 +1,122 @@
 /* CSS styles for the student repository project */
 body {
-     background-image: url("images/libraryimg.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-   
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .search-bar {
-    float: right;
-  }
-  
-  .search-bar input[type="text"] {
-    padding: 5px;
-  }
-  
-  .search-bar button {
-    padding: 5px 10px;
-    background-color: #555;
-    color: #fff;
-    border: none;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  #faculties {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f2f2f2;
-  }
-  
-  #faculties h2 {
-    margin-bottom: 10px;
-  }
-  
-  #faculties ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #faculties .faculty {
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-  
-  #faculties .faculty:hover {
-    background-color: #ccc;
-  }
-  
-  .department-list {
-    display: none;
-    margin-left: 20px;
-  }
-  
-  #faculties .faculty:hover .department-list {
-    display: block;
-  }
+  background-image: url("images/libraryimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
 
+header {
+  background-color: #995050;
+  color: #fff;
+  padding: 10px;
+}
 
+nav {
+  display: flex;
+  align-items: center; /* Vertically center the items in the nav */
+}
 
-  
-  
-  
-  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-bar {
+  float: right;
+}
+
+.logo-container {
+  display: inline-block; /* Display the logo container inline */
+  margin-right: 20px; /* Add spacing between the logo and navigation links */
+}
+
+.logo-container img {
+  height: 50px; /* Adjust the height of the logo */
+  /* You can also use max-height or width to control the size while maintaining the aspect ratio */
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#faculties {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+#faculties h2 {
+  margin-bottom: 10px;
+}
+
+#faculties ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#faculties .faculty {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#faculties .faculty:hover {
+  background-color: #ccc;
+}
+
+.department-list {
+  display: none;
+  margin-left: 20px;
+}
+
+#faculties .faculty:hover .department-list {
+  display: block;
+}
+
+/* New style for centered div */
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-text {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #561a7e; /* Background color for the text */
+  padding: 30px; /* Add padding around the text to make the background stand out */
+  border-radius: 5px; /* Add border radius to make the background rounded */
+}

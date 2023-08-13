@@ -1,0 +1,43 @@
+/* CSS for the search page */
+body {
+    /* Your body styling */
+    background-color: aqua;
+  }
+  
+  header {
+    /* Your header styling */
+    align-items: center;
+  }
+  
+  /* Style for the search filters section */
+  .search-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .search-filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-filter label {
+    margin-right: 10px;
+  }
+  
+  .search-button button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  /* Style for the search results section */
+  .search-results {
+    margin-top: 20px;
+    /* Your search results styling */
+  }
+  
