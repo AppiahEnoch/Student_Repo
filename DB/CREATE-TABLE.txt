@@ -1,0 +1,9 @@
+CREATE TABLE projects (
+    index_number VARCHAR(255) PRIMARY KEY,
+    stu_name VARCHAR(255) NOT NULL,
+    title TEXT NOT NULL,
+    faculty TEXT NOT NULL,
+    study_program TEXT NOT NULL,
+    file_path TEXT NOT NULL,
+    defence_date DATE NOT NULL
+);
